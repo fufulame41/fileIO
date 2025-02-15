@@ -6,9 +6,9 @@ int main(){
     std::ifstream inFile;
     std::string currentLine;
     std::stringstream converter;
-    int num1;
-    int num2;
-    int sum;
+    std::string sNum1;
+    std::string sNum2;
+    std::string text;
 
     inFile.open("data.csv");
     while(getline(inFile, currentLine)) {
